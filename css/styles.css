@@ -11,13 +11,25 @@ h1{
 }
 
 h2{
-
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 h3{
-
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
+p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: #8f8f8f;
+}
 /*********************************CLASS SELECTOR***************************/
 .gopal{
     padding: 0;
@@ -54,9 +66,51 @@ h3{
     width: 60%;
     transform: rotate(25deg);
 }
+
+.features-image{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.features-image:hover{
+    color: #ff4c68;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
 /*********************************ID SELECTOR***************************/
 #title{
     background-color: #ff4c68;
     color: white;
 }
 
+#features{
+    padding: 5% 16%;
+}
+
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color: #EF8172;
+}
+
+#press{
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
