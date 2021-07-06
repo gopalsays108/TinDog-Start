@@ -93,6 +93,10 @@ p{
 .carousel-item{
     padding: 7% 15%;
 }
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
 /*********************************ID SELECTOR***************************/
 #title{
     background-color: #ff4c68;
@@ -113,4 +117,8 @@ p{
     background-color: #EF8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 100px;
 }
