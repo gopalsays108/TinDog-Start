@@ -119,10 +119,18 @@ p{
     line-height: 1.5;
 
 }
+
+.colored-section{
+    color: white;
+    background-color: #ff4c68;
+}
+
+.white{
+    color: black;
+}
+
 /********************************* ID SELECTOR ***************************/
 #title{
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -134,8 +142,6 @@ p{
 }
 
 #testimonials{
-    
-    color: white;
     background-color: #EF8172;
 }
 
@@ -151,10 +157,7 @@ p{
 }
 
 #cta{
-    background-color: #ff4c68;
-    color: white;
     padding: 7% 15%;
-    
 }
 
 #footer{
