@@ -30,14 +30,12 @@ p{
     font-style: normal;
     color: #8f8f8f;
 }
+
 /*********************************CLASS SELECTOR***************************/
-.gopal{
-    padding: 0;
+.container-fluid {
+    padding: 3% 15% 7%;
 }
 
-.container-fluid {
-    padding: 3% 15%;
-}
 /*Navigation Bar*/
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -63,8 +61,9 @@ p{
 
 /*Title Image*/
 .title-Image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 .features-image{
@@ -80,6 +79,7 @@ p{
     text-align: center;
     padding: 5%;
 }
+
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
@@ -90,21 +90,39 @@ p{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
 .carousel-item{
     padding: 7% 15%;
 }
+
 .pricing-column{
     padding: 3% 2%;
     text-align: center;
 }
-/*********************************ID SELECTOR***************************/
+
+.cta-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/********************************* ID SELECTOR ***************************/
 #title{
     background-color: #ff4c68;
     color: white;
 }
 
 #features{
-    padding: 5% 16%;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 #testimonials{
@@ -121,4 +139,29 @@ p{
 
 #pricing{
     padding: 100px;
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+/******************************* Media Query *******************************/
+@media  (max-width:1028px) {
+    .title-Image{
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+
+    #title{
+        text-align: center;
+    }
 }
