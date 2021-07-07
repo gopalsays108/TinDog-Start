@@ -1,28 +1,11 @@
 /*********************************TAG SELECTOR***************************/
 body{
-  font-family:  'Montserrat', sans-serif;;
+  font-family:  'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    font-weight: bolder;
-    line-height: 1.5;
-}
-
-h2{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3{
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5rem;
 }
 
 p{
@@ -32,6 +15,13 @@ p{
 }
 
 /*********************************CLASS SELECTOR***************************/
+.section-heading{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
 .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -76,14 +66,25 @@ p{
 }
 
 .features-box{
-    text-align: center;
+    
     padding: 5%;
 }
-
+.feature-title{
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .press-logo{
@@ -97,14 +98,13 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
-    text-align: center;
+    
 }
 
-.cta-text{
-    font-family: "Montserrat", sans-serif;
+.price-text{
     font-weight: 700;
     font-style: normal;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -112,10 +112,18 @@ p{
     margin: 20px 10px;
 }
 
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+
+}
 /********************************* ID SELECTOR ***************************/
 #title{
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 #features{
@@ -126,32 +134,32 @@ p{
 }
 
 #testimonials{
-    text-align: center;
+    
     color: white;
     background-color: #EF8172;
 }
 
 #press{
     background-color: #EF8172;
-    text-align: center;
+    
     padding-bottom: 3%;
 }
 
 #pricing{
     padding: 100px;
-    text-align: center;
+    
 }
 
 #cta{
     background-color: #ff4c68;
     color: white;
     padding: 7% 15%;
-    text-align: center;
+    
 }
 
 #footer{
     padding: 7% 15%;
-    text-align: center;
+    
 }
 /******************************* Media Query *******************************/
 @media  (max-width:1028px) {
@@ -162,6 +170,6 @@ p{
     }
 
     #title{
-        text-align: center;
+        
     }
 }
